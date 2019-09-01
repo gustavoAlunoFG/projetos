@@ -1,0 +1,18 @@
+.resultado{
+	justify-content: right;
+	align-items: center;
+	display: flex;
+	margin-right: 30px;
+
+}
+.alinhar{
+	justify-content: left;
+	align-items: center;
+	display: flex;
+	margin-left: 30px;
+}
+
+.cima{
+	align-items: left;
+	margin-top: 30px;
+}

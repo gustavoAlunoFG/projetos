@@ -1,0 +1,7 @@
+.centralizar{
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	margin-top: 60px;
+
+}

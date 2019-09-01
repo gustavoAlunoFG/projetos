@@ -1,0 +1,60 @@
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<!-- título da página -->
+	<title>Metodo AHP</title>
+
+	<!-- javascript -->
+	<script type="text/javascript" src="https://www.google.com/jsapi"></script> <!-- google chart api -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/alternativas.js"></script>
+	<script type="text/javascript" src="js/controle.js"></script>
+	<script type="text/javascript" src="js/criterios.js"></script>
+	<script type="text/javascript" src="js/funçoesJqueryCriteriosAlternativas.js"></script>
+	<script type="text/javascript" src="js/funçoesJqueryEvento.js"></script>
+	<script type="text/javascript" src="js/funçoestabelaAuxiliar1.js"></script>
+	<script type="text/javascript" src="js/funçoestabelaAuxiliar2.js"></script>
+	<script type="text/javascript" src="js/tabelaAuxiliar1.js"></script>
+	<script type="text/javascript" src="js/tabelaAuxiliar2.js"></script>
+	<script type="text/javascript" src="js/tabelaAuxiliar3.js"></script>
+	<script type="text/javascript" src="js/tabelaAuxiliar4.js"></script>
+	<!-- arquivo javascript local -->
+
+	<!-- estilos css -->
+	<link rel="stylesheet" href="css/alternativas.css" type="text/css" />
+	<link rel="stylesheet" href="css/criterios.css" type="text/css" />
+	<link rel="stylesheet" href="css/evento.css" type="text/css" />
+	<link rel="stylesheet" href="css/tabelaAuxiliar1.css" type="text/css" />
+	<link rel="stylesheet" href="css/tabelaAuxiliar2.css" type="text/css" />
+
+</head>
+
+<body>
+	<h1>Metodo AHP</h1>
+	<hr />
+
+	<!-- div para a tabela -->
+
+	<div class="container" id="conteudo">
+		<p>Digite o numero de criterios:</p>
+		<input type="text" class="teste" id="id" size="4">
+		<p>Digite o numero de Alternativas:
+			<input type="text" class="teste" id="id2" size="4">
+		</p>
+		<input type="submit" class="abrir" value="Enviar" id="ocultar" onclick="init()">
+	</div>
+
+	<div class="organizar" class="table" id="table" align="center"></div>
+	<div class="organizar" class="tableCriterioA" id="tableCriterioA"></div>
+	<div class="tableteste" id="tableteste" align="center"></div>
+	<div id="corpo"></div>
+	<div class="centralizar">
+		<div class="resultado" id="tableResult" align="center"></div>
+		<div class="alinhar" id="tableResultB" align="center"></div>
+	</div>
+	<div id="tableAux" align="center"></div>
+
+</body>
+
+</html>
