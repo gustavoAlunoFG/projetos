@@ -4,3 +4,20 @@
     justify-content: center;
 	align-items: center;
 }
+
+form {
+    margin: 0 auto;
+    width: 290px;
+	padding: 2em;
+  
+}
+
+label {
+    display: inline-table;
+    text-align: center;
+}
+
+form div + div {
+    margin-top: 20%;
+}
+

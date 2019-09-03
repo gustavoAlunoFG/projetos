@@ -21,11 +21,11 @@ function tableCriterio() {
 		//	teste++;
 		}
 		for (var r = x + 1; r < x + 2; r++) {
-			dataTable.setCell(index, r, "<input type='text' id = " + a + '-' + w + '-' + r +"  class='cor2 input' onblur='media(" + a + "," + n +","+w+")'size='6'>");
+			dataTable.setCell(index, r, "<input type='text' id = " + a + '-' + w + '-' + r +" class='cor2 input' onfocus='media(" + a + "," + n +","+w+")'size='6'>");
 		//	teste++;
 		}
 		for (var m = x + 2; m < x + 3; m++) {
-			dataTable.setCell(index, m, "<input type='text' id = " + a + '-' + w + '-' + m +"  class='cor2 input' onblur='normalizacao(" + a + "," + n + ","+w+")' size='6'>");
+			dataTable.setCell(index, m, "<input type='text' id = " + a + '-' + w + '-' + m +" class='cor2 input' onfocus='normalizacao(" + a + "," + n + ","+w+")' size='6'>");
 		//	teste++;
 		}
 		for (var j = 1; j < x + 1; j++) {
@@ -34,7 +34,7 @@ function tableCriterio() {
 				//teste++;
 			}
 			else if (w > j) {
-				dataTable.setCell(index, j, "<input type='text' class='input' id = " + a + '-' + w + '-' + j +"  onblur = 'valores(" + a + "," + n +")' size='6'>");
+				dataTable.setCell(index, j, "<input type='text' class='input' id = " + a + '-' + w + '-' + j +"  onfocus = 'valores(" + a + "," + n +")' size='6'>");
 				//teste++;
 			}
 			else if (w < j) {

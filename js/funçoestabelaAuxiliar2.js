@@ -44,7 +44,7 @@ var somaTotal = function (id,id2) {
             // alert(valor3);
             somatorio = somatorio + converte;
         }
-        $('#' + 1004 + '-' + i + '-' + (id+1)+'-'+1).val(somatorio.toFixed(2) + '%');
+        $('#' + 1004 + '-' + i + '-' + (id+1)+'-'+1).val(somatorio.toFixed(1) + '%');
     }
 
 }

@@ -31,19 +31,20 @@
 </head>
 
 <body>
-	<h1>Metodo AHP</h1>
+	<h1>Método AHP</h1>
 	<hr />
 
 	<!-- div para a tabela -->
 
-	<div class="container" id="conteudo">
-		<p>Digite o numero de criterios:</p>
+	<form>
+		<div id="conteudo">
+		<label> Digite o número de Critérios:</label>
 		<input type="text" class="teste" id="id" size="4">
-		<p>Digite o numero de Alternativas:
-			<input type="text" class="teste" id="id2" size="4">
-		</p>
-		<input type="submit" class="abrir" value="Enviar" id="ocultar" onclick="init()">
-	</div>
+		<label>Digite o número de Alternativas:</label>
+		<input type="text" class="teste" id="id2" size="4">
+		<input type="submit" class="abrir" value="Gerar" id="ocultar" onclick="init()">
+	    </div> 
+	</form>
 
 	<div class="organizar" class="table" id="table" align="center"></div>
 	<div class="organizar" class="tableCriterioA" id="tableCriterioA"></div>
